@@ -32,3 +32,14 @@ We follow the [Karma commit convention](https://karma-runner.github.io/6.3/dev/g
 - **scope:** optional, the part of the code, e.g. `extract`, `api`, `review-ui`
 - **subject:** imperative, present tense, lowercase, no period, first line at most 70 characters
 - Example: `feat(extract): add ontology-guided label extractor`
+
+## Setup and run
+
+Requires Node.js. In the repo root:
+
+```
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
