@@ -4,6 +4,19 @@ Frontend of the Knowledge Graph Generator (TPSE 2026/27, TU Darmstadt).
 
 How we work (shared by all repos): [process](https://github.com/tpse2627-kgg/kgg-core/blob/develop/docs/process/process.md)
 
+## Setup and run
+
+Requires Node.js 20.19+ or 22.12+ (needed by Vite) and Git.
+
+```
+git clone https://github.com/tpse2627-kgg/kgg-frontend.git
+cd kgg-frontend
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser. It shows "This is for TPSE".
+
 ## Branching
 
 We use [git-flow](https://nvie.com/posts/a-successful-git-branching-model/) (to be confirmed by the team):
